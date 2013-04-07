@@ -1,0 +1,276 @@
+$vr: 80px;
+$white: #f1f1f1;
+$pink: #d47477;
+
+body {
+    background: url("../images/background.jpg") #f3f3f3 repeat-x center 48px;
+    font-family: "Ubuntu", sans-serif;
+    color: #282828;
+}
+
+a,
+a:visited {
+    color: #d47477;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.cf {
+    
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    
+    &:after {
+        clear: both;
+    }  
+}
+
+.wrapper {
+    max-width: $vr*12;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#top-bar {
+    background: #1f1e1c;
+    height: 48px;
+    width: 100%;
+    font-size: 14px;
+    
+    ul {
+        float: left;
+        
+        li {
+            margin: 10px 15px 0 0;
+            float: left;
+            
+            a {
+                display: block;
+                background: url("../images/sprite.png") no-repeat;
+                width: 26px;
+                height: 26px;
+                
+                &.facebook {
+                    background-position: 0 0;
+                }
+                
+                &.twitter {
+                    background-position: -38px 0;
+                }
+            }
+        }
+    }
+    
+    address {
+        float: right;
+        color: $white;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 15px;
+        
+        &:after {
+            content: "|";
+            padding: 0 5px;
+        }
+    }
+    
+    .phone,
+    .mobile {
+        float: right;
+        font-family: 'Open Sans', sans-serif;
+        margin: 15px 0 0 5px;
+    }
+}
+
+header {
+    
+    .logo {
+        display: block;
+        width: 200px;
+        height: 141px;
+        background: url("../images/sprite.png") no-repeat 0 -52px;
+        margin: $vr/3 auto;
+    }
+    
+    nav {
+        text-align: center;
+        padding: $vr/8 0;
+        border:10px solid transparent;
+        
+        -webkit-border-image: url("../images/border.png") 0 0 round; /* Safari 5 */
+        -o-border-image: url("../images/border.png") 0 0 round; /* Opera */
+        -moz-border-image: url("../images/border.png") 30 0 round;
+        border-image: url("../images/border.png") 30 0 round;
+        
+        
+        a {
+            text-transform: uppercase;
+            color: $white !important;
+            font-size: 16px;
+            display: inline-block;
+            margin-right: 30px;
+        }
+    }
+}
+
+#main {
+    .prosfores {
+        float: right;
+        background: #c76568;
+        color: #fff;
+        font-family: "Ubuntu Condensed", sans-serif;
+        font-size: 18px;
+        padding: $vr/10 $vr/4;
+        margin: $vr/4 $vr/8 0 0;
+        border-radius: 3px 3px 0 0;
+    }
+    
+    section {
+        margin-bottom: $vr/1.6;
+        
+        &.massage {
+            margin-top: $vr;
+            
+            > div {
+                float: left;
+                width: 63%;
+                margin-right: 4%;
+                
+                h2 {
+                    text-align: center;
+                    font-size: 20px;
+                    margin-bottom: 30px;
+                    width: 100%;
+                    
+                    span {
+                        color: $pink;
+                    }
+                }
+                
+                h3 {
+                    font-size: 16px;
+                    margin-bottom: $vr/6;
+                }
+            }
+            
+            img {
+                float: left;
+                height: 206px;
+                margin-top: 30px;
+            }
+        }
+        
+        &.med {
+            background: #e59699;
+            
+            img {
+                float: left;
+                height: 150px;
+            }
+            
+            p {
+                float: left;
+                width: 66%;
+                
+                &:nth-child(2) {
+                    margin: 16px 40px 0;
+                }
+                
+                &:nth-child(3) {
+                    margin: 10px 40px 16px;
+                }
+            }
+        }
+        
+        &.columns {
+            article {
+                float: left;
+                width: 30%;
+                margin-right: 5%;
+                
+                &:last-child {
+                    margin-right: 0;
+                }
+                
+                ul {
+                    margin-top: $vr/4;
+                    
+                    li {
+                        margin-bottom: $vr/8;
+                        position: relative;
+                        padding-left: 30px;
+                        
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 15px;
+                            height: 15px;
+                            background: url("../images/sprite.png") no-repeat -80px -6px;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}
+
+footer {
+    background: url("../images/background.jpg") #f3f3f3 repeat-x center 0;
+    
+    > .wrapper {
+        padding: $vr/2 0;
+    }
+    
+    section {
+        float: left;
+        width: 30%;
+        margin-right: 5%;
+        color: $white;
+        
+        &:nth-child(3) {
+            margin-right: 0;
+        }
+        
+        h4 {
+            font-family: "Ubuntu Condensed", sans-serif;
+            font-size: 22px;
+            margin-bottom: $vr/4;
+        }
+        
+        ul li {
+            margin-bottom: $vr/10;
+            font-size: 14px;
+        }
+        
+        small a,
+        small a:visited {
+            float: right;
+            color: $white !important;
+            font-size: 11px;
+            margin-top: 6px;
+        }
+        
+        small a:hover {
+            text-decoration: underline;
+        }
+    }
+    
+    aside {
+        background: #1f1e1c;
+        width: 100%;
+        font-size: 12px;
+        padding: 16px 0;
+        color: $white;
+        
+        .wrapper {
+            text-align: center;
+        }
+    }
+}
