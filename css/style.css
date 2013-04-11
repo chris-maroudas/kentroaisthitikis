@@ -1,11 +1,14 @@
 body {
-  background: url("../images/background.jpg") #f3f3f3 repeat-x center 48px;
   font-family: "Ubuntu", sans-serif;
-  color: #282828; }
+  color: #282828;
+  background: url("../images/background2.jpg") #f3f3f3 repeat-x center 48px; }
+  body.index {
+    background: url("../images/background.jpg") #f3f3f3 repeat-x center 48px; }
 
 p {
   font-size: 14px;
-  line-height: 1.5; }
+  line-height: 1.5;
+  margin-bottom: 15px; }
 
 .cf:before, .cf:after {
   content: "";
@@ -53,6 +56,8 @@ p {
     font-family: "Open Sans", sans-serif;
     margin: 15px 0 0 5px; }
 
+header.wrapper {
+  margin-bottom: 80px; }
 header .logo {
   display: block;
   width: 200px;
@@ -81,6 +86,52 @@ header nav {
   header nav a.active,
   header nav a.active:visited {
     color: #d47477; }
+
+footer {
+  background: url("../images/background.jpg") #f3f3f3 repeat-x center 0;
+  margin-top: 80px; }
+  footer > .wrapper {
+    padding: 40px 0; }
+  footer a,
+  footer a:visited {
+    color: #d47477; }
+  footer a:hover {
+    border-bottom: 1px dotted #d47477; }
+  footer section {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    color: #f1f1f1; }
+    footer section:nth-child(3) {
+      margin-right: 0; }
+    footer section h4 {
+      font-family: "Ubuntu Condensed", sans-serif;
+      font-size: 22px;
+      margin-bottom: 20px; }
+    footer section ul li {
+      margin-bottom: 8px;
+      font-size: 14px; }
+    footer section small a,
+    footer section small a:visited {
+      float: right;
+      color: #f1f1f1 !important;
+      font-size: 11px;
+      margin-top: 6px;
+      border-bottom: none !important; }
+    footer section small a:hover {
+      text-decoration: underline; }
+  footer aside {
+    background: #1f1e1c;
+    width: 100%;
+    font-size: 12px;
+    padding: 16px 0;
+    color: #f1f1f1; }
+    footer aside .wrapper {
+      text-align: center; }
+
+/* HOMEPAGE */
+.index header.wrapper {
+  margin-bottom: 0; }
 
 #main .prosfores {
   float: right;
@@ -146,43 +197,35 @@ header nav {
           height: 15px;
           background: url("../images/sprite.png") no-repeat -80px -6px; }
 
-footer {
-  background: url("../images/background.jpg") #f3f3f3 repeat-x center 0; }
-  footer > .wrapper {
-    padding: 40px 0; }
-  footer a,
-  footer a:visited {
-    color: #d47477; }
-  footer a:hover {
-    border-bottom: 1px dotted #d47477; }
-  footer section {
-    float: left;
-    width: 30%;
-    margin-right: 5%;
-    color: #f1f1f1; }
-    footer section:nth-child(3) {
-      margin-right: 0; }
-    footer section h4 {
-      font-family: "Ubuntu Condensed", sans-serif;
-      font-size: 22px;
-      margin-bottom: 20px; }
-    footer section ul li {
-      margin-bottom: 8px;
-      font-size: 14px; }
-    footer section small a,
-    footer section small a:visited {
-      float: right;
-      color: #f1f1f1 !important;
-      font-size: 11px;
-      margin-top: 6px;
-      border-bottom: none !important; }
-    footer section small a:hover {
-      text-decoration: underline; }
-  footer aside {
-    background: #1f1e1c;
+/* TO KENTRO */
+#kentro > img {
+  max-width: 100%;
+  border-radius: 3px;
+  margin-bottom: 40px; }
+#kentro article {
+  margin-bottom: 40px; }
+  #kentro article.bio {
+    background: #e59699; }
+    #kentro article.bio img {
+      float: left;
+      width: 145px;
+      height: 145px;
+      margin-right: 40px; }
+    #kentro article.bio p {
+      padding: 20px 40px; }
+#kentro section {
+  text-align: center; }
+  #kentro section h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
     width: 100%;
-    font-size: 12px;
-    padding: 16px 0;
-    color: #f1f1f1; }
-    footer aside .wrapper {
-      text-align: center; }
+    display: table; }
+  #kentro section ul li {
+    display: inline-block;
+    margin: 0 10px 20px;
+    width: 137px;
+    height: 115px;
+    border-radius: 3px; }
+    #kentro section ul li img {
+      max-width: 100%;
+      border-radius: 3px; }
