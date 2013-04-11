@@ -51,14 +51,62 @@
     <header class="wrapper">
         <a href="#" class="logo"></a>
         <nav>
-            <a href="#">Αρχικη</a>
-            <a href="#">Το κέντρο</a>
-            <a href="#">Πρόσωπο</a>
-            <a href="#">Σώμα</a>
-            <a href="#">Μακιγιάζ</a>
-            <a href="#">Νύχια</a>
-            <a href="#">Αποτρίχωση</a>
-            <a href="#">'Αρθρα</a>
+            <a href="index.php" <?php
+                        if ($pageName == "index.php"){
+                            echo "class='active'";
+                        }else{
+                             echo "class='default'";
+                        }
+                        ?> >Αρχική</a>
+            <a href="about_us.php" <?php
+                        if ($pageName == "about_us.php"){
+                            echo "class='active'";
+                        }else{
+                             echo "class='default'";
+                        }
+                        ?> >Το κέντρο</a>           
+            <a href="face.php" <?php
+                        if ($pageName == "face.php"){
+                            echo "class='active'";
+                        }else{
+                             echo "class='default'";
+                        }
+                        ?> >Πρόσωπο</a>
+            <a href="body.php" <?php
+                        if ($pageName == "body.php"){
+                            echo "class='active'";
+                        }else{
+                             echo "class='default'";
+                        }
+                        ?> >Σώμα</a>
+            <a href="makeup.php" <?php
+                        if ($pageName == "makeup.php"){
+                            echo "class='active'";
+                        }else{
+                             echo "class='default'";
+                        }
+                        ?> >Μακιγιάζ</a>
+            <a href="nails.php" <?php
+                        if ($pageName == "nails.php"){
+                            echo "class='active'";
+                        }else{
+                             echo "class='default'";
+                        }
+                        ?> >Νύχια</a>
+            <a href="waxing.php" <?php
+                        if ($pageName == "waxing.php"){
+                            echo "class='active'";
+                        }else{
+                             echo "class='default'";
+                        }
+                        ?> >Αποτρίχωση</a>
+            <a href="articles.php" <?php
+                        if ($pageName == "articles.php"){
+                            echo "class='active'";
+                        }else{
+                             echo "class='default'";
+                        }
+                        ?> >Αρθρα</a>
         </nav>
     </header>
     

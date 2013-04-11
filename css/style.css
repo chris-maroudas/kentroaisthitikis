@@ -3,10 +3,6 @@ body {
   font-family: "Ubuntu", sans-serif;
   color: #282828; }
 
-a,
-a:visited {
-  color: #d47477; }
-
 p {
   font-size: 14px;
   line-height: 1.5; }
@@ -27,6 +23,8 @@ p {
   height: 48px;
   width: 100%;
   font-size: 14px; }
+  #top-bar a {
+    color: #d47477; }
   #top-bar ul {
     float: left; }
     #top-bar ul li {
@@ -71,12 +69,18 @@ header nav {
   /* Opera */
   -moz-border-image: url("../images/border.png") 30 0 round;
   border-image: url("../images/border.png") 30 0 round; }
-  header nav a {
+  header nav a,
+  header nav a:visited {
     text-transform: uppercase;
-    color: #f1f1f1 !important;
+    color: #f1f1f1;
     font-size: 16px;
     display: inline-block;
     margin-right: 30px; }
+  header nav a:hover {
+    color: #d47477; }
+  header nav a.active,
+  header nav a.active:visited {
+    color: #d47477; }
 
 #main .prosfores {
   float: right;
@@ -146,6 +150,11 @@ footer {
   background: url("../images/background.jpg") #f3f3f3 repeat-x center 0; }
   footer > .wrapper {
     padding: 40px 0; }
+  footer a,
+  footer a:visited {
+    color: #d47477; }
+  footer a:hover {
+    border-bottom: 1px dotted #d47477; }
   footer section {
     float: left;
     width: 30%;
@@ -165,7 +174,8 @@ footer {
       float: right;
       color: #f1f1f1 !important;
       font-size: 11px;
-      margin-top: 6px; }
+      margin-top: 6px;
+      border-bottom: none !important; }
     footer section small a:hover {
       text-decoration: underline; }
   footer aside {
