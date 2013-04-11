@@ -28,7 +28,7 @@
 
 </head>
 
-<body>
+<body class="index">
     
     <div id="top-bar">
         <div class="wrapper">
