@@ -25,7 +25,7 @@ p {
   background: #1f1e1c;
   height: 48px;
   width: 100%;
-  font-size: 14px; }
+  font-size: 13px; }
   #top-bar a {
     color: #d47477; }
   #top-bar ul {
@@ -68,9 +68,9 @@ header nav {
   text-align: center;
   padding: 10px 0;
   border: 10px solid transparent;
-  -webkit-border-image: url("../images/border.png") 0 0 round;
+  -webkit-border-image: url("../images/border.png") 30 0 round;
   /* Safari 5 */
-  -o-border-image: url("../images/border.png") 0 0 round;
+  -o-border-image: url("../images/border.png") 30 0 round;
   /* Opera */
   -moz-border-image: url("../images/border.png") 30 0 round;
   border-image: url("../images/border.png") 30 0 round; }
@@ -229,3 +229,105 @@ footer {
     #kentro section ul li img {
       max-width: 100%;
       border-radius: 3px; }
+
+/* LISTA ME ARTHRA */
+#list_articles article {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px dotted #d47477; }
+  #list_articles article date {
+    float: left;
+    width: 100px;
+    height: 100px;
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 28px;
+    margin: 0 20px 20px 0;
+    text-align: center;
+    color: #666666; }
+  #list_articles article section {
+    float: left;
+    width: 87%; }
+    #list_articles article section h2 {
+      font-size: 20px;
+      margin-bottom: 20px; }
+      #list_articles article section h2 a {
+        color: #d47477; }
+    #list_articles article section + a {
+      float: right;
+      color: #d47477; }
+#list_articles #pagination ul {
+  text-align: center;
+  position: relative;
+  width: 170px;
+  margin: 0 auto; }
+  #list_articles #pagination ul li {
+    width: 20px;
+    height: 20px;
+    font-size: 28px;
+    display: inline-block;
+    font-family: "Ubuntu Condensed", sans-serif; }
+    #list_articles #pagination ul li a {
+      color: #999; }
+      #list_articles #pagination ul li a:hover {
+        color: #d47477; }
+  #list_articles #pagination ul:before {
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background: url("../images/sprite.png") no-repeat -80px -6px; }
+  #list_articles #pagination ul:after {
+    content: "";
+    position: absolute;
+    top: 11px;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    background: url("../images/sprite.png") no-repeat -80px -6px; }
+
+/* ARTHRA */
+#articles {
+  border-bottom: 1px dotted #d47477; }
+  #articles a,
+  #articles a:visited {
+    color: #d47477; }
+  #articles a:hover {
+    text-decoration: underline; }
+  #articles article {
+    padding-bottom: 40px; }
+    #articles article h2 {
+      font-size: 20px;
+      margin-bottom: 20px; }
+    #articles article date {
+      float: left;
+      width: 100px;
+      height: 100px;
+      font-family: "Ubuntu Condensed", sans-serif;
+      font-size: 28px;
+      margin: 0 20px 20px 0;
+      text-align: center;
+      color: #666666; }
+    #articles article section {
+      float: left;
+      width: 87%; }
+      #articles article section img {
+        float: left;
+        max-width: 200px;
+        max-height: 200px;
+        margin: 20px; }
+    #articles article + a {
+      float: right;
+      margin-bottom: 40px;
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 40px; }
+      #articles article + a:before {
+        content: "";
+        position: absolute;
+        top: 1px;
+        left: 0;
+        width: 15px;
+        height: 15px;
+        background: url("../images/sprite.png") no-repeat -80px -6px; }

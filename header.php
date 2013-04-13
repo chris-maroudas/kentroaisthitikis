@@ -98,8 +98,8 @@
                              echo "class='default'";
                         }
                         ?> >Αποτριχωση</a>
-            <a href="articles.php" <?php
-                        if ($pageName == "articles.php"){
+            <a href="list_articles.php" <?php
+                        if ($pageName == "list_articles.php" || $pageName == "articles.php" ){
                             echo "class='active'";
                         }else{
                              echo "class='default'";

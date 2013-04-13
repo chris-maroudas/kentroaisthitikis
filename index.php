@@ -7,7 +7,7 @@
 
 <html>
 <head>
-    <meta charset="iso-8859-7" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
     <link rel="shortcut icon" href="images/favicon.png">
@@ -24,7 +24,7 @@
     
     <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
     
-    <title>Ειρήνη Χαλά</title>
+    <title>ΞΞΉΟΞ®Ξ½Ξ· Ξ§Ξ±Ξ»Ξ¬</title>
 
 </head>
 
@@ -40,10 +40,10 @@
                     <a href="#" class="twitter"></a>
                 </li>
             </ul>
-            <a href="tel:694 9736414" class="mobile">κ. 694 9736414</a>
-            <a href="tel:210 6030864" class="phone">τηλ. 210 6030864</a>
+            <a href="tel:694 9736414" class="mobile">ΞΊ. 694 9736414</a>
+            <a href="tel:210 6030864" class="phone">ΟΞ·Ξ». 210 6030864</a>
             <address>
-                Γρηγορίου Ε' & Βυζαντίου 9, Παλλήνη 
+                ΞΟΞ·Ξ³ΞΏΟΞ―ΞΏΟ Ξ' & ΞΟΞΆΞ±Ξ½ΟΞ―ΞΏΟ 9, Ξ Ξ±Ξ»Ξ»Ξ®Ξ½Ξ· 
             </address>
         </div>
     </div>
@@ -57,61 +57,61 @@
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Αρχική</a>
+                        ?> >ΞΟΟΞΉΞΊΞ®</a>
             <a href="about_us.php" <?php
                         if ($pageName == "about_us.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Το κέντρο</a>           
+                        ?> >Ξ€ΞΏ ΞΊΞ­Ξ½ΟΟΞΏ</a>           
             <a href="face.php" <?php
                         if ($pageName == "face.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Πρόσωπο</a>
+                        ?> >Ξ ΟΟΟΟΟΞΏ</a>
             <a href="body.php" <?php
                         if ($pageName == "body.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Σώμα</a>
+                        ?> >Ξ£ΟΞΌΞ±</a>
             <a href="makeup.php" <?php
                         if ($pageName == "makeup.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Μακιγιάζ</a>
+                        ?> >ΞΞ±ΞΊΞΉΞ³ΞΉΞ¬ΞΆ</a>
             <a href="nails.php" <?php
                         if ($pageName == "nails.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Νύχια</a>
+                        ?> >ΞΟΟΞΉΞ±</a>
             <a href="waxing.php" <?php
                         if ($pageName == "waxing.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Αποτρίχωση</a>
+                        ?> >ΞΟΞΏΟΟΞ―ΟΟΟΞ·</a>
             <a href="articles.php" <?php
                         if ($pageName == "articles.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Αρθρα</a>
+                        ?> >ΞΟΞΈΟΞ±</a>
         </nav>
     </header>
     
     <div id="main" class="wrapper">
-        <a href="#" class="prosfores">Προσφορές</a>
+        <a href="#" class="prosfores">Ξ ΟΞΏΟΟΞΏΟΞ­Ο</a>
         <section class="slider cf">
             <div class="flexslider">
               <ul class="slides">
@@ -136,51 +136,51 @@
         
         <section class="massage cf">
             <div>
-                <h2>Αλλάξτε <span>εικόνα</span> αλλάξτε <span>ζωή</span></h2>
-                <h3>...με σύστημα ολοκληρωμένων θεραπειών προσώπου και σώματος που αντιμετωπίζουν τη φθορά του δέρματος και χαρίζουν ανανέωση, υγρασία και φυσική λάμψη.</h3>
-                <p>Εξειδικευμένες θεραπείες αισθητικής κοσμετολογίας που αναστέλλουν τη διαδικασία της γήρανσης, σας χαρίζουν ένα πρόσωπο χωρίς ρυτίδες και λεπτές γραμμές,
-                    αυξάνουν το ρυθμό ανάπλασης των κυττάρων, χαρίζοντάς σας ένα λαμπερό και νεανικό πρόσωπο (αντιρυττιδική θεραπεία, λεμφικό μασάζ προσώπου,
-                    σύσφιξη προσώπου με μικρορεύματα, οξέα φρούτων. φυτικό peeling).</p>
+                <h2>ΞΞ»Ξ»Ξ¬ΞΎΟΞ΅ <span>Ξ΅ΞΉΞΊΟΞ½Ξ±</span> Ξ±Ξ»Ξ»Ξ¬ΞΎΟΞ΅ <span>ΞΆΟΞ®</span></h2>
+                <h3>...ΞΌΞ΅ ΟΟΟΟΞ·ΞΌΞ± ΞΏΞ»ΞΏΞΊΞ»Ξ·ΟΟΞΌΞ­Ξ½ΟΞ½ ΞΈΞ΅ΟΞ±ΟΞ΅ΞΉΟΞ½ ΟΟΞΏΟΟΟΞΏΟ ΞΊΞ±ΞΉ ΟΟΞΌΞ±ΟΞΏΟ ΟΞΏΟ Ξ±Ξ½ΟΞΉΞΌΞ΅ΟΟΟΞ―ΞΆΞΏΟΞ½ ΟΞ· ΟΞΈΞΏΟΞ¬ ΟΞΏΟ Ξ΄Ξ­ΟΞΌΞ±ΟΞΏΟ ΞΊΞ±ΞΉ ΟΞ±ΟΞ―ΞΆΞΏΟΞ½ Ξ±Ξ½Ξ±Ξ½Ξ­ΟΟΞ·, ΟΞ³ΟΞ±ΟΞ―Ξ± ΞΊΞ±ΞΉ ΟΟΟΞΉΞΊΞ® Ξ»Ξ¬ΞΌΟΞ·.</h3>
+                <p>ΞΞΎΞ΅ΞΉΞ΄ΞΉΞΊΞ΅ΟΞΌΞ­Ξ½Ξ΅Ο ΞΈΞ΅ΟΞ±ΟΞ΅Ξ―Ξ΅Ο Ξ±ΞΉΟΞΈΞ·ΟΞΉΞΊΞ®Ο ΞΊΞΏΟΞΌΞ΅ΟΞΏΞ»ΞΏΞ³Ξ―Ξ±Ο ΟΞΏΟ Ξ±Ξ½Ξ±ΟΟΞ­Ξ»Ξ»ΞΏΟΞ½ ΟΞ· Ξ΄ΞΉΞ±Ξ΄ΞΉΞΊΞ±ΟΞ―Ξ± ΟΞ·Ο Ξ³Ξ®ΟΞ±Ξ½ΟΞ·Ο, ΟΞ±Ο ΟΞ±ΟΞ―ΞΆΞΏΟΞ½ Ξ­Ξ½Ξ± ΟΟΟΟΟΟΞΏ ΟΟΟΞ―Ο ΟΟΟΞ―Ξ΄Ξ΅Ο ΞΊΞ±ΞΉ Ξ»Ξ΅ΟΟΞ­Ο Ξ³ΟΞ±ΞΌΞΌΞ­Ο,
+                    Ξ±ΟΞΎΞ¬Ξ½ΞΏΟΞ½ ΟΞΏ ΟΟΞΈΞΌΟ Ξ±Ξ½Ξ¬ΟΞ»Ξ±ΟΞ·Ο ΟΟΞ½ ΞΊΟΟΟΞ¬ΟΟΞ½, ΟΞ±ΟΞ―ΞΆΞΏΞ½ΟΞ¬Ο ΟΞ±Ο Ξ­Ξ½Ξ± Ξ»Ξ±ΞΌΟΞ΅ΟΟ ΞΊΞ±ΞΉ Ξ½Ξ΅Ξ±Ξ½ΞΉΞΊΟ ΟΟΟΟΟΟΞΏ (Ξ±Ξ½ΟΞΉΟΟΟΟΞΉΞ΄ΞΉΞΊΞ® ΞΈΞ΅ΟΞ±ΟΞ΅Ξ―Ξ±, Ξ»Ξ΅ΞΌΟΞΉΞΊΟ ΞΌΞ±ΟΞ¬ΞΆ ΟΟΞΏΟΟΟΞΏΟ,
+                    ΟΟΟΟΞΉΞΎΞ· ΟΟΞΏΟΟΟΞΏΟ ΞΌΞ΅ ΞΌΞΉΞΊΟΞΏΟΞ΅ΟΞΌΞ±ΟΞ±, ΞΏΞΎΞ­Ξ± ΟΟΞΏΟΟΟΞ½. ΟΟΟΞΉΞΊΟ peeling).</p>
             </div>
             <img src="images/massage.jpg" />
         </section>
         
                 <section class="columns cf">
             <article>
-                <p>Απαλλαγείτε από την κυτταρίτιδα με τον πλέον επιστημονικό σύγχρονο τρόπο αντιμετώπισής της.</p>
+                <p>ΞΟΞ±Ξ»Ξ»Ξ±Ξ³Ξ΅Ξ―ΟΞ΅ Ξ±ΟΟ ΟΞ·Ξ½ ΞΊΟΟΟΞ±ΟΞ―ΟΞΉΞ΄Ξ± ΞΌΞ΅ ΟΞΏΞ½ ΟΞ»Ξ­ΞΏΞ½ Ξ΅ΟΞΉΟΟΞ·ΞΌΞΏΞ½ΞΉΞΊΟ ΟΟΞ³ΟΟΞΏΞ½ΞΏ ΟΟΟΟΞΏ Ξ±Ξ½ΟΞΉΞΌΞ΅ΟΟΟΞΉΟΞ®Ο ΟΞ·Ο.</p>
                 <ul>
                     <li>Endermologie&reg; LPG</li>
-                    <li>με σταφυλοθεραπεία</li>
-                    <li>με λεμφικό μασάζ</li>
+                    <li>ΞΌΞ΅ ΟΟΞ±ΟΟΞ»ΞΏΞΈΞ΅ΟΞ±ΟΞ΅Ξ―Ξ±</li>
+                    <li>ΞΌΞ΅ Ξ»Ξ΅ΞΌΟΞΉΞΊΟ ΞΌΞ±ΟΞ¬ΞΆ</li>
                 </ul>
             </article>
             
             <article>
-                <p>Για ομοιόμορφο και σφριγηλό σώμα ζητείστε τις πρωτοποριακές θεραπείες σύσφιξης.</p>
+                <p>ΞΞΉΞ± ΞΏΞΌΞΏΞΉΟΞΌΞΏΟΟΞΏ ΞΊΞ±ΞΉ ΟΟΟΞΉΞ³Ξ·Ξ»Ο ΟΟΞΌΞ± ΞΆΞ·ΟΞ΅Ξ―ΟΟΞ΅ ΟΞΉΟ ΟΟΟΟΞΏΟΞΏΟΞΉΞ±ΞΊΞ­Ο ΞΈΞ΅ΟΞ±ΟΞ΅Ξ―Ξ΅Ο ΟΟΟΟΞΉΞΎΞ·Ο.</p>
                 <ul>
-                    <li>θεραπεία με χρυσό και τζίντζερ</li>
-                    <li>θεραπεία ηλεκτροεπιδερμικού ερεθισμού</li>
-                    <li>θεραπεία με φύκια</li>
+                    <li>ΞΈΞ΅ΟΞ±ΟΞ΅Ξ―Ξ± ΞΌΞ΅ ΟΟΟΟΟ ΞΊΞ±ΞΉ ΟΞΆΞ―Ξ½ΟΞΆΞ΅Ο</li>
+                    <li>ΞΈΞ΅ΟΞ±ΟΞ΅Ξ―Ξ± Ξ·Ξ»Ξ΅ΞΊΟΟΞΏΞ΅ΟΞΉΞ΄Ξ΅ΟΞΌΞΉΞΊΞΏΟ Ξ΅ΟΞ΅ΞΈΞΉΟΞΌΞΏΟ</li>
+                    <li>ΞΈΞ΅ΟΞ±ΟΞ΅Ξ―Ξ± ΞΌΞ΅ ΟΟΞΊΞΉΞ±</li>
                 </ul>
             </article>
             
             <article>
-                <p>Ολοκληρώστε την αλλαγή σας με:</p>
+                <p>ΞΞ»ΞΏΞΊΞ»Ξ·ΟΟΟΟΞ΅ ΟΞ·Ξ½ Ξ±Ξ»Ξ»Ξ±Ξ³Ξ® ΟΞ±Ο ΞΌΞ΅:</p>
                 <ul>
-                    <li>αποτρίχωση</li>
-                    <li>επαγγελματικό μακιγιάζ</li>
-                    <li>μανικιούρ / πεντικιούρ / μόνιμο</li>
-                    <li>θεραπεία ενυδάτωσης άκρων με παραφίνη</li>
-                    <li>ονυχοπλαστική</li>
+                    <li>Ξ±ΟΞΏΟΟΞ―ΟΟΟΞ·</li>
+                    <li>Ξ΅ΟΞ±Ξ³Ξ³Ξ΅Ξ»ΞΌΞ±ΟΞΉΞΊΟ ΞΌΞ±ΞΊΞΉΞ³ΞΉΞ¬ΞΆ</li>
+                    <li>ΞΌΞ±Ξ½ΞΉΞΊΞΉΞΏΟΟ / ΟΞ΅Ξ½ΟΞΉΞΊΞΉΞΏΟΟ / ΞΌΟΞ½ΞΉΞΌΞΏ</li>
+                    <li>ΞΈΞ΅ΟΞ±ΟΞ΅Ξ―Ξ± Ξ΅Ξ½ΟΞ΄Ξ¬ΟΟΟΞ·Ο Ξ¬ΞΊΟΟΞ½ ΞΌΞ΅ ΟΞ±ΟΞ±ΟΞ―Ξ½Ξ·</li>
+                    <li>ΞΏΞ½ΟΟΞΏΟΞ»Ξ±ΟΟΞΉΞΊΞ®</li>
                 </ul>
             </article>
         </section>
         
         <section class="med cf">
             <img src="images/mediterranean.jpg" />
-            <p>Ο σύγχρονος τρόπος ζωής και η καθιστική ζωή αλλάζουν το σώμα σας καθημερινά. Χαλαρώστε το σώμα και τις αισθήσεις με relax massage με λάδι και αιθέρια έλαια,
-                όπως και με θεραπείες spa (relax massage σώματος, αυχένας σώματος, πλάτης, σοκολατοθεραπεία).</p>
-            <p>Χαρείτε τις θεραπείες για τις δικές σας ανάγκες, μέσα σε ένα αδυνατισμένο, υγιές σώμα με τη φροντίδα των Mediterranean Diet.</p>
+            <p>Ξ ΟΟΞ³ΟΟΞΏΞ½ΞΏΟ ΟΟΟΟΞΏΟ ΞΆΟΞ®Ο ΞΊΞ±ΞΉ Ξ· ΞΊΞ±ΞΈΞΉΟΟΞΉΞΊΞ® ΞΆΟΞ® Ξ±Ξ»Ξ»Ξ¬ΞΆΞΏΟΞ½ ΟΞΏ ΟΟΞΌΞ± ΟΞ±Ο ΞΊΞ±ΞΈΞ·ΞΌΞ΅ΟΞΉΞ½Ξ¬. Ξ§Ξ±Ξ»Ξ±ΟΟΟΟΞ΅ ΟΞΏ ΟΟΞΌΞ± ΞΊΞ±ΞΉ ΟΞΉΟ Ξ±ΞΉΟΞΈΞ®ΟΞ΅ΞΉΟ ΞΌΞ΅ relax massage ΞΌΞ΅ Ξ»Ξ¬Ξ΄ΞΉ ΞΊΞ±ΞΉ Ξ±ΞΉΞΈΞ­ΟΞΉΞ± Ξ­Ξ»Ξ±ΞΉΞ±,
+                ΟΟΟΟ ΞΊΞ±ΞΉ ΞΌΞ΅ ΞΈΞ΅ΟΞ±ΟΞ΅Ξ―Ξ΅Ο spa (relax massage ΟΟΞΌΞ±ΟΞΏΟ, Ξ±ΟΟΞ­Ξ½Ξ±Ο ΟΟΞΌΞ±ΟΞΏΟ, ΟΞ»Ξ¬ΟΞ·Ο, ΟΞΏΞΊΞΏΞ»Ξ±ΟΞΏΞΈΞ΅ΟΞ±ΟΞ΅Ξ―Ξ±).</p>
+            <p>Ξ§Ξ±ΟΞ΅Ξ―ΟΞ΅ ΟΞΉΟ ΞΈΞ΅ΟΞ±ΟΞ΅Ξ―Ξ΅Ο Ξ³ΞΉΞ± ΟΞΉΟ Ξ΄ΞΉΞΊΞ­Ο ΟΞ±Ο Ξ±Ξ½Ξ¬Ξ³ΞΊΞ΅Ο, ΞΌΞ­ΟΞ± ΟΞ΅ Ξ­Ξ½Ξ± Ξ±Ξ΄ΟΞ½Ξ±ΟΞΉΟΞΌΞ­Ξ½ΞΏ, ΟΞ³ΞΉΞ­Ο ΟΟΞΌΞ± ΞΌΞ΅ ΟΞ· ΟΟΞΏΞ½ΟΞ―Ξ΄Ξ± ΟΟΞ½ Mediterranean Diet.</p>
         </section>
     
     </div>
@@ -188,20 +188,20 @@
     <footer>
         <div class="wrapper cf">
             <section>
-                <h4>Ώρες λειτουργίας</h4>
+                <h4>ΞΟΞ΅Ο Ξ»Ξ΅ΞΉΟΞΏΟΟΞ³Ξ―Ξ±Ο</h4>
                 <ul>
-                    <li>Δευτέρα 10 π.μ. - 8 μ.μ.</li>
-                    <li>Τρίτη 10 π.μ. - 8 μ.μ.</li>
-                    <li>Τετάρτη 10 π.μ. - 8 μ.μ.</li>
-                    <li>Πέμπτη 10 π.μ. - 8 μ.μ.</li>
-                    <li>Παρασκευή 10 π.μ. - 8 μ.μ.</li>
-                    <li>Σάββατο 10 π.μ. - 3 μ.μ.</li>
-                    <li>Κυριακή κλειστά</li>
+                    <li>ΞΞ΅ΟΟΞ­ΟΞ± 10 Ο.ΞΌ. - 8 ΞΌ.ΞΌ.</li>
+                    <li>Ξ€ΟΞ―ΟΞ· 10 Ο.ΞΌ. - 8 ΞΌ.ΞΌ.</li>
+                    <li>Ξ€Ξ΅ΟΞ¬ΟΟΞ· 10 Ο.ΞΌ. - 8 ΞΌ.ΞΌ.</li>
+                    <li>Ξ Ξ­ΞΌΟΟΞ· 10 Ο.ΞΌ. - 8 ΞΌ.ΞΌ.</li>
+                    <li>Ξ Ξ±ΟΞ±ΟΞΊΞ΅ΟΞ® 10 Ο.ΞΌ. - 8 ΞΌ.ΞΌ.</li>
+                    <li>Ξ£Ξ¬Ξ²Ξ²Ξ±ΟΞΏ 10 Ο.ΞΌ. - 3 ΞΌ.ΞΌ.</li>
+                    <li>ΞΟΟΞΉΞ±ΞΊΞ® ΞΊΞ»Ξ΅ΞΉΟΟΞ¬</li>
                 </ul>
             </section>
             
             <section>
-                <h4>Τα τελευταία άρθρα</h4>
+                <h4>Ξ€Ξ± ΟΞ΅Ξ»Ξ΅ΟΟΞ±Ξ―Ξ± Ξ¬ΟΞΈΟΞ±</h4>
                 <ul>
                     <li><a href="#">Gummi bears oat cake applicake wypas cake tiramisu.</a></li>
                     <li><a href="#">Gummi bears oat cake applicake wypas cake tiramisu.</a></li>
@@ -211,12 +211,12 @@
             </section>
             
             <section>
-                <h4>Πού θα μας βρείτε</h4>
-                <iframe width="300" height="206" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.gr/maps?f=q&amp;source=s_q&amp;hl=el&amp;geocode=&amp;q=%CE%92%CF%85%CE%B6%CE%B1%CE%BD%CF%84%CE%AF%CE%BF%CF%85+9,+%CE%A0%CE%B1%CE%BB%CE%BB%CE%AE%CE%BD%CE%B7&amp;aq=&amp;sll=38.003873,23.882378&amp;sspn=0.006907,0.01369&amp;ie=UTF8&amp;hq=&amp;hnear=%CE%92%CF%85%CE%B6%CE%B1%CE%BD%CF%84%CE%AF%CE%BF%CF%85+9,+%CE%A0%CE%B1%CE%BB%CE%BB%CE%AE%CE%BD%CE%B7,+%CE%91%CE%BD%CE%B1%CF%84%CE%BF%CE%BB%CE%B9%CE%BA%CE%AE+%CE%91%CF%84%CF%84%CE%B9%CE%BA%CE%AE&amp;t=m&amp;ll=38.004634,23.880715&amp;spn=0.003483,0.006416&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.gr/maps?f=q&amp;source=embed&amp;hl=el&amp;geocode=&amp;q=%CE%92%CF%85%CE%B6%CE%B1%CE%BD%CF%84%CE%AF%CE%BF%CF%85+9,+%CE%A0%CE%B1%CE%BB%CE%BB%CE%AE%CE%BD%CE%B7&amp;aq=&amp;sll=38.003873,23.882378&amp;sspn=0.006907,0.01369&amp;ie=UTF8&amp;hq=&amp;hnear=%CE%92%CF%85%CE%B6%CE%B1%CE%BD%CF%84%CE%AF%CE%BF%CF%85+9,+%CE%A0%CE%B1%CE%BB%CE%BB%CE%AE%CE%BD%CE%B7,+%CE%91%CE%BD%CE%B1%CF%84%CE%BF%CE%BB%CE%B9%CE%BA%CE%AE+%CE%91%CF%84%CF%84%CE%B9%CE%BA%CE%AE&amp;t=m&amp;ll=38.004634,23.880715&amp;spn=0.003483,0.006416&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">Προβολή μεγαλύτερου χάρτη</a></small>
+                <h4>Ξ ΞΏΟ ΞΈΞ± ΞΌΞ±Ο Ξ²ΟΞ΅Ξ―ΟΞ΅</h4>
+                <iframe width="300" height="206" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.gr/maps?f=q&amp;source=s_q&amp;hl=el&amp;geocode=&amp;q=%CE%92%CF%85%CE%B6%CE%B1%CE%BD%CF%84%CE%AF%CE%BF%CF%85+9,+%CE%A0%CE%B1%CE%BB%CE%BB%CE%AE%CE%BD%CE%B7&amp;aq=&amp;sll=38.003873,23.882378&amp;sspn=0.006907,0.01369&amp;ie=UTF8&amp;hq=&amp;hnear=%CE%92%CF%85%CE%B6%CE%B1%CE%BD%CF%84%CE%AF%CE%BF%CF%85+9,+%CE%A0%CE%B1%CE%BB%CE%BB%CE%AE%CE%BD%CE%B7,+%CE%91%CE%BD%CE%B1%CF%84%CE%BF%CE%BB%CE%B9%CE%BA%CE%AE+%CE%91%CF%84%CF%84%CE%B9%CE%BA%CE%AE&amp;t=m&amp;ll=38.004634,23.880715&amp;spn=0.003483,0.006416&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.gr/maps?f=q&amp;source=embed&amp;hl=el&amp;geocode=&amp;q=%CE%92%CF%85%CE%B6%CE%B1%CE%BD%CF%84%CE%AF%CE%BF%CF%85+9,+%CE%A0%CE%B1%CE%BB%CE%BB%CE%AE%CE%BD%CE%B7&amp;aq=&amp;sll=38.003873,23.882378&amp;sspn=0.006907,0.01369&amp;ie=UTF8&amp;hq=&amp;hnear=%CE%92%CF%85%CE%B6%CE%B1%CE%BD%CF%84%CE%AF%CE%BF%CF%85+9,+%CE%A0%CE%B1%CE%BB%CE%BB%CE%AE%CE%BD%CE%B7,+%CE%91%CE%BD%CE%B1%CF%84%CE%BF%CE%BB%CE%B9%CE%BA%CE%AE+%CE%91%CF%84%CF%84%CE%B9%CE%BA%CE%AE&amp;t=m&amp;ll=38.004634,23.880715&amp;spn=0.003483,0.006416&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">Ξ ΟΞΏΞ²ΞΏΞ»Ξ® ΞΌΞ΅Ξ³Ξ±Ξ»ΟΟΞ΅ΟΞΏΟ ΟΞ¬ΟΟΞ·</a></small>
             </section>
         </div>
         <aside>
-            <div class="wrapper cf">2013 &copy; www.kentro-omorfias.gr Ειρήνη Χαλά | σχεδιασμός και κατασκευή ιστοσελίδας <a href="http://www.grigoriap.gr">Grigoria Pontiki</a></div>
+            <div class="wrapper cf">2013 &copy; www.kentro-omorfias.gr ΞΞΉΟΞ®Ξ½Ξ· Ξ§Ξ±Ξ»Ξ¬ | ΟΟΞ΅Ξ΄ΞΉΞ±ΟΞΌΟΟ ΞΊΞ±ΞΉ ΞΊΞ±ΟΞ±ΟΞΊΞ΅ΟΞ® ΞΉΟΟΞΏΟΞ΅Ξ»Ξ―Ξ΄Ξ±Ο <a href="http://www.grigoriap.gr">Grigoria Pontiki</a></div>
         </aside>
     </footer>
     
