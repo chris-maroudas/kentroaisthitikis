@@ -7,7 +7,7 @@
 
 <html>
 <head>
-    <meta charset="iso-8859-7" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
     <link rel="shortcut icon" href="images/favicon.png">
@@ -22,7 +22,7 @@
 
     <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
     
-    <title>Ειρήνη Χαλά</title>
+    <title>ΞΞΉΟΞ®Ξ½Ξ· Ξ§Ξ±Ξ»Ξ¬</title>
 
 </head>
 
@@ -38,10 +38,10 @@
                     <a href="#" class="twitter"></a>
                 </li>
             </ul>
-            <a href="tel:694 9736414" class="mobile">κ. 694 9736414</a>
-            <a href="tel:210 6030864" class="phone">τηλ. 210 6030864</a>
+            <a href="tel:694 9736414" class="mobile">ΞΊ. 694 9736414</a>
+            <a href="tel:210 6030864" class="phone">ΟΞ·Ξ». 210 6030864</a>
             <address>
-                Γρηγορίου Ε' & Βυζαντίου 9, Παλλήνη 
+                ΞΟΞ·Ξ³ΞΏΟΞ―ΞΏΟ Ξ' & ΞΟΞΆΞ±Ξ½ΟΞ―ΞΏΟ 9, Ξ Ξ±Ξ»Ξ»Ξ®Ξ½Ξ· 
             </address>
         </div>
     </div>
@@ -55,55 +55,55 @@
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Αρχική</a>
+                        ?> >ΞΟΟΞΉΞΊΞ·</a>
             <a href="about_us.php" <?php
                         if ($pageName == "about_us.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Το κέντρο</a>           
+                        ?> >Ξ€ΞΏ ΞΊΞ΅Ξ½ΟΟΞΏ</a>           
             <a href="face.php" <?php
                         if ($pageName == "face.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Πρόσωπο</a>
+                        ?> >Ξ ΟΞΏΟΟΟΞΏ</a>
             <a href="body.php" <?php
                         if ($pageName == "body.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Σώμα</a>
+                        ?> >Ξ£ΟΞΌΞ±</a>
             <a href="makeup.php" <?php
                         if ($pageName == "makeup.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Μακιγιάζ</a>
+                        ?> >ΞΞ±ΞΊΞΉΞ³ΞΉΞ±ΞΆ</a>
             <a href="nails.php" <?php
                         if ($pageName == "nails.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Νύχια</a>
+                        ?> >ΞΟΟΞΉΞ±</a>
             <a href="waxing.php" <?php
                         if ($pageName == "waxing.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Αποτρίχωση</a>
+                        ?> >ΞΟΞΏΟΟΞΉΟΟΟΞ·</a>
             <a href="articles.php" <?php
                         if ($pageName == "articles.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Αρθρα</a>
+                        ?> >ΞΟΞΈΟΞ±</a>
         </nav>
     </header>
