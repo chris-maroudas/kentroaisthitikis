@@ -217,7 +217,8 @@ footer {
       float: left;
       width: 145px;
       height: 145px;
-      margin: 0 26.66667px 20px 40px; }
+      margin: 0 26.66667px 20px 40px;
+      border-radius: 6px; }
     #kentro article.bio p {
       padding: 0 40px 20px; }
 #kentro section {
@@ -290,11 +291,48 @@ footer {
     background: url("../images/sprite.png") no-repeat -80px -6px; }
 
 /* GENIKA */
+#services section {
+  clear: both;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px dotted #e59699; }
+#services .left {
+  float: left; }
+#services .right {
+  float: right; }
 #services h2 {
   font-size: 20px;
   margin-bottom: 30px;
   width: 100%;
   text-align: center; }
+#services h3 {
+  float: left;
+  font-size: 20px;
+  width: 160px;
+  text-align: center;
+  margin: 0 20px 20px;
+  font-family: "Ubuntu Condensed", sans-serif; }
+#services ul {
+  margin-top: 20px;
+  column-count: 3;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-gap: 40px;
+  -moz-column-gap: 40px;
+  -webkit-column-gap: 40px; }
+  #services ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
+    line-height: 1.6; }
+    #services ul li:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 15px;
+      height: 15px;
+      background: url("../images/sprite.png") no-repeat -80px -6px; }
 
 /* ARTHRA */
 #articles {
