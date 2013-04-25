@@ -202,24 +202,26 @@ footer {
   max-width: 100%;
   border-radius: 3px;
   margin-bottom: 40px; }
+#kentro h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center; }
 #kentro article {
   margin-bottom: 40px; }
   #kentro article.bio {
-    background: #e59699; }
+    background: #e59699;
+    margin-top: 40px;
+    padding-top: 40px; }
     #kentro article.bio img {
       float: left;
       width: 145px;
       height: 145px;
-      margin-right: 40px; }
+      margin: 0 26.66667px 20px 40px; }
     #kentro article.bio p {
-      padding: 20px 40px; }
+      padding: 0 40px 20px; }
 #kentro section {
   text-align: center; }
-  #kentro section h2 {
-    font-size: 20px;
-    margin-bottom: 30px;
-    width: 100%;
-    display: table; }
   #kentro section ul li {
     display: inline-block;
     margin: 0 10px 20px;
@@ -286,6 +288,13 @@ footer {
     width: 15px;
     height: 15px;
     background: url("../images/sprite.png") no-repeat -80px -6px; }
+
+/* GENIKA */
+#services h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center; }
 
 /* ARTHRA */
 #articles {

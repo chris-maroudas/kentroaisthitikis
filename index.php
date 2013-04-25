@@ -57,49 +57,49 @@
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Αρχική</a>
+                        ?> >Αρχικη</a>
             <a href="about_us.php" <?php
                         if ($pageName == "about_us.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Το κέντρο</a>           
+                        ?> >Το κεντρο</a>           
             <a href="face.php" <?php
                         if ($pageName == "face.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Πρόσωπο</a>
+                        ?> >Προσωπο</a>
             <a href="body.php" <?php
                         if ($pageName == "body.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Σώμα</a>
+                        ?> >Σωμα</a>
             <a href="makeup.php" <?php
                         if ($pageName == "makeup.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Μακιγιάζ</a>
+                        ?> >Μακιγιαζ</a>
             <a href="nails.php" <?php
                         if ($pageName == "nails.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Νύχια</a>
+                        ?> >Νυχια</a>
             <a href="waxing.php" <?php
                         if ($pageName == "waxing.php"){
                             echo "class='active'";
                         }else{
                              echo "class='default'";
                         }
-                        ?> >Αποτρίχωση</a>
+                        ?> >Αποτριχωση</a>
             <a href="articles.php" <?php
                         if ($pageName == "articles.php"){
                             echo "class='active'";
