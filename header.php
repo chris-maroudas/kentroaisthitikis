@@ -47,7 +47,7 @@
     </div>
     
     <header class="wrapper">
-        <a href="#" class="logo"></a>
+        <a href="index.php" class="logo"></a>
         <nav>
             <a href="index.php" <?php
                         if ($pageName == "index.php"){

@@ -49,7 +49,7 @@
     </div>
     
     <header class="wrapper">
-        <a href="#" class="logo"></a>
+        <a href="index.php" class="logo"></a>
         <nav>
             <a href="index.php" <?php
                         if ($pageName == "index.php"){
@@ -104,7 +104,7 @@
     </header>
     
     <div id="main" class="wrapper">
-        <a href="#" class="prosfores">Προσφορές</a>
+        <a href="offers.php" class="prosfores">Προσφορές</a>
         <section class="slider cf">
             <div class="flexslider">
               <ul class="slides">

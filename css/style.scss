@@ -19,6 +19,13 @@ p {
     margin-bottom: 15px;
 }
 
+a {
+    transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+}
+
 .cf {
     
     &:before,
@@ -563,6 +570,64 @@ footer {
             width: auto;
             text-align: left;
             margin-left: 0;
+        }
+    }
+}
+
+/* PROSFORES */
+
+#offers {
+    
+    h2 {
+        font-size: 20px;
+        width: 110px;
+        margin: 0 auto 30px;
+        position: relative;
+        padding: 0 30px;
+        
+        &:before {
+            content: "";
+            position: absolute;
+            top: 7px;
+            left: 0;
+            width: 15px;
+            height: 15px;
+            background: url("../images/sprite.png") no-repeat -80px -6px;
+        }
+        
+        &:after {
+            content: "";
+            position: absolute;
+            top: 7px;
+            right: 0;
+            width: 15px;
+            height: 15px;
+            background: url("../images/sprite.png") no-repeat -80px -6px;
+        }
+    }
+    
+    ol li {
+        background: $light-pink;
+        margin: $vr/2 0;
+        padding: $vr/3;
+        border-radius: 3px;
+        
+        span {
+            padding: 0 $vr/3;
+            color: #f1f1f1;
+            float: left;
+            margin-top: -$vr/8;
+            font-size: 76px;
+        }
+        
+        p {
+            font-size: 16px;
+            margin-bottom: 0;
+            padding-left: 100px;
+        }
+        
+        &:last-child {
+            margin-bottom: 0;
         }
     }
 }

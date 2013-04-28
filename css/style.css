@@ -10,6 +10,12 @@ p {
   line-height: 1.5;
   margin-bottom: 15px; }
 
+a {
+  transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease; }
+
 .cf:before, .cf:after {
   content: "";
   display: table; }
@@ -357,6 +363,47 @@ footer {
   width: auto;
   text-align: left;
   margin-left: 0; }
+
+/* PROSFORES */
+#offers h2 {
+  font-size: 20px;
+  width: 110px;
+  margin: 0 auto 30px;
+  position: relative;
+  padding: 0 30px; }
+  #offers h2:before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background: url("../images/sprite.png") no-repeat -80px -6px; }
+  #offers h2:after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    background: url("../images/sprite.png") no-repeat -80px -6px; }
+#offers ol li {
+  background: #e59699;
+  margin: 40px 0;
+  padding: 26.66667px;
+  border-radius: 3px; }
+  #offers ol li span {
+    padding: 0 26.66667px;
+    color: #f1f1f1;
+    float: left;
+    margin-top: -10px;
+    font-size: 76px; }
+  #offers ol li p {
+    font-size: 16px;
+    margin-bottom: 0;
+    padding-left: 100px; }
+  #offers ol li:last-child {
+    margin-bottom: 0; }
 
 /* ARTHRA */
 #articles {
