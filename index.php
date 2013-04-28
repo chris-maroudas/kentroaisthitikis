@@ -93,13 +93,6 @@
                              echo "class='default'";
                         }
                         ?> >Νυχια</a>
-            <a href="waxing.php" <?php
-                        if ($pageName == "waxing.php"){
-                            echo "class='active'";
-                        }else{
-                             echo "class='default'";
-                        }
-                        ?> >Αποτριχωση</a>
             <a href="articles.php" <?php
                         if ($pageName == "articles.php"){
                             echo "class='active'";
